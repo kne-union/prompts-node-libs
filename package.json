@@ -1,0 +1,24 @@
+{
+  "name": "@kne/prompts-node-libs",
+  "version": "1.0.0",
+  "description": "Node.js 项目的可重用提示词模板与文档生成指南集合",
+  "files": [
+    "prompts"
+  ],
+  "scripts": {
+    "init": "husky",
+    "prettier": "prettier --config .prettierrc --write '{libs/**/*,index}.{js,jsx,ts,tsx,json,css,scss}'",
+    "lint-staged": "npx lint-staged"
+  },
+  "keywords": [
+    "prompts",
+    "nodejs"
+  ],
+  "author": "linzp",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kne-union/prompts-node-libs.git"
+  },
+  "homepage": "https://github.com/kne-union/prompts-node-libs"
+}
