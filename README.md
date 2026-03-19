@@ -24,6 +24,26 @@
 
 ---
 
+### 2. 完善 package.json 描述和关键词
+
+**功能**: 指导如何为 JavaScript/TypeScript 包项目完善 package.json 的 description 和 keywords 字段
+
+**适用场景**:
+- 为新项目编写 package.json 描述和关键词
+- 优化现有项目的 package.json 使其更易被搜索发现
+- 准备发布 npm 包时完善元数据
+
+**核心内容**:
+- 信息收集方法：分析文档目录、源码结构、依赖关系
+- description 撰写原则：简洁明了、突出特色、用户视角
+- keywords 生成策略：按功能、技术栈、组件类型、特性、场景分类
+- 输出格式规范：JSON 格式或直接修改 package.json
+- 检查清单和注意事项
+
+**使用方式**: 阅读 [原文档](./prompts/完善package.json描述和关键词.md) 了解详情
+
+---
+
 ## 如何选择
 
 | 需求 | 使用文档 |
@@ -31,3 +51,6 @@
 | 生成项目概述文档 | 生成文档 |
 | 生成 API 文档 | 生成文档 |
 | 规范化文档格式 | 生成文档 |
+| 完善 package.json 描述 | 完善 package.json 描述和关键词 |
+| 添加 npm 包关键词 | 完善 package.json 描述和关键词 |
+| 优化包的可搜索性 | 完善 package.json 描述和关键词 |

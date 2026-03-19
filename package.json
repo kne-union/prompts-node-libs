@@ -1,6 +1,6 @@
 {
   "name": "@kne/prompts-node-libs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Node.js 项目的可重用提示词模板与文档生成指南集合",
   "files": [
     "prompts"
